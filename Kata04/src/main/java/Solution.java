@@ -8,6 +8,7 @@ public class Solution {
 
 	public static void main(String[] args) {
 		System.out.println("Hello HomeDepot!\nThis program is my solution for Kata04: Data Munging challenge.\n");
+		System.out.println("The source code for this solution is in 3 parts.\nPart1: WeatherMunger.java\nPart2: FootballMunger.java\nPart3: DRYMunger.java\n");
 		WeatherMunger wm = new WeatherMunger();
 		int day = wm.smallestTempSpreadDay("src/main/resources/weather.dat");
 		System.out.println(String.format("The answer to Part1 is day: %d", day));
