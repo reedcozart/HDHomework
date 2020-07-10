@@ -10,7 +10,7 @@ public class FootballMunger {
 	public String smallestForAndAgainst(String filePath){
 		
 		int minDifferential = Integer.MAX_VALUE; // football points can only be integers, so we use integer math.
-		String ansName = "";
+		String ansName = "Unable to answer";
 		List<String> lines = getAllLines(filePath);
 		
 		for(String line : lines){
